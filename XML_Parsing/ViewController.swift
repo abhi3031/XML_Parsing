@@ -53,7 +53,7 @@ class ViewController: UIViewController,XMLParserDelegate,UITableViewDataSource{
         strcontent = string;
     }
     func parserDidEndDocument(_ parser: XMLParser) {
-        
+        print(arr);
         
     }
     
